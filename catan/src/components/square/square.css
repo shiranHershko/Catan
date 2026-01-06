@@ -29,3 +29,12 @@
   border-right: 50px solid transparent;
   border-top: 28.8675px solid var(--square-color, rgb(0, 0, 0));
 }
+
+.square-number {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icon-type {
+  font-size: 20px;
+}

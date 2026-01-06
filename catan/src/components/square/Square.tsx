@@ -1,6 +1,11 @@
 import "./square.css";
 
-const Square = (props: { cubeOption: number; type: string; color: string }) => {
+const Square = (props: {
+  cubeOption: number;
+  type: string;
+  color: string;
+  icon: string;
+}) => {
   return (
     <div
       className="square"
@@ -12,7 +17,7 @@ const Square = (props: { cubeOption: number; type: string; color: string }) => {
       }
     >
       <span className="square-number">{props.cubeOption}</span>
-      <span className="square-type">{props.type}</span>
+      <div className="icon-type">{props.icon}</div>
     </div>
   );
 };
